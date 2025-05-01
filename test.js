@@ -1,6 +1,6 @@
 const request = require('supertest');
 
-const app = require('../index.js'); // Adjust if your app filename is app.js
+const app = require('../test.js'); // Adjust if your app filename is app.js
 
 
 describe('GET /nonexistentpage', function() {
